@@ -12,8 +12,22 @@ nav{
 nav > button{
     padding: 10px ;
     background-color: snow;
-    width: 24%;
+    width: 22%;
+    margin: 2px;
+    border-radius: 13px;
+
 }
 button:hover{
     background-color:chartreuse;
+}
+button:active{
+    background-color:darkblue;
+}
+
+.content01{
+    background-color: lightgray;
+    text-align: justify ;
+    border-radius: 10px;
+    margin: auto;
+    width: 70%;
 }
