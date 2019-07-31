@@ -1,4 +1,4 @@
-body{
+html,body{
     background-color:#160906;
     margin: auto;
     text-align: center;
@@ -40,19 +40,27 @@ nav button:active{
     background-color:#6b6769;
 }
 
+.content01{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+}
+
 .content01 img{
     width: 50%;
     height: 50%;
-    display: inline-block;
+    margin: auto;
 }
 
 .content01 > p{
     background-color: lightgray;
     text-align: justify ;
     border-radius: 10px;
-    margin: 30px;
+    margin: auto;
+    margin-bottom: 30px;
     color: #160906;
-    width: 60%;
+    width: 95%;
     padding: 5px ;
 
 }
